@@ -21,7 +21,7 @@ class CursoSerializer(serializers.ModelSerializer):
         model = Curso
         fields = '__all__'
 
-class MatricuraSerializer(serializers.ModelSerializer):
+class MatriculaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Matricula
         exclude = []
